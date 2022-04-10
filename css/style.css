@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --green:#27ae60;
+    --green:#ff5c33;
     --black:#444;
     --light-color:#777;
     --bg-color:#e6e6e6;
@@ -407,7 +407,7 @@ section{
     top:0; left: 0;
     height: 100%;
     width: 100%;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     display: grid;
     place-items: center;
     transform: scale(0);
@@ -421,15 +421,15 @@ section{
     font-size: 2.5rem;
     color:var(--black);
     text-transform: uppercase;
-    transform: translateY(-5rem);
+     transform: translateY(-5rem); 
     opacity: 0;
-    transition-delay: .3s;
+    transition-delay: .3s; 
 }
 
-.portfolio .box-container .box:hover .content h3{
+.portfolio .box-container .box:hover .content h3{ 
     transform: translateY(0rem);
     opacity: 1;
-}
+} */
 
 .contact form{
     margin:1rem auto;
